@@ -216,13 +216,13 @@ export default {
                     />
                 ),
                 image: stepTXTGrow
-            }, {
-                deckIds: [
-                    'animate-a-name',
-                    'make-music'
-                ]
-            }
-            ],
+              }, {
+                  deckIds: [
+                      'animate-a-name',
+                      'Make-Music'
+                  ]
+              }
+              ],
             urlId: 2
     },
     'animate-a-name': {
