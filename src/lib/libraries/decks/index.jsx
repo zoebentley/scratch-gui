@@ -114,116 +114,116 @@ export default {
         }
         ],
         urlId: 1
-      },
-        'say-it-out-loud': {
-            name: (
+    },
+    'say-it-out-loud': {
+        name: (
+            <FormattedMessage
+                defaultMessage="Say it Out Loud"
+                description="Name for the 'Say it Out Loud' how-to"
+                id="gui.howtos.say-it-out-loud"
+            />
+        ),
+        img: libraryTXTSpeech,
+        steps: [{
+            video: 'https://www.youtube.com/embed/jtRQnyjpTWI'
+        }, {
+            title: (
                 <FormattedMessage
-                    defaultMessage="Say it Out Loud"
-                    description="Name for the 'Say it Out Loud' how-to"
-                    id="gui.howtos.say-it-out-loud"
+                    defaultMessage="Add the Text to Speech blocks"
+                    description="Step name for 'Add the Text to Speech blocks' step"
+                    id="gui.howtos.say-it-out-loud.step_AddTXTextension"
                 />
             ),
-            img: libraryTXTSpeech,
-            steps: [{
-                video: 'https://www.youtube.com/embed/jtRQnyjpTWI'
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Add the Text to Speech blocks"
-                        description="Step name for 'Add the Text to Speech blocks' step"
-                        id="gui.howtos.say-it-out-loud.step_AddTXTextension"
-                    />
-                ),
-                image: stepAddTXTextension
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Say Something"
-                        description="Step name for 'Say Something' step"
-                        id="gui.howtos. say-it-out-loud.step_TXTSpeech"
-                    />
-                ),
-                image: stepTXTSpeech
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Set a Voice"
-                        description="Step name for 'Set a Voice"
-                        id="gui.howtos.say-it-out-loud_TXTSetVoice"
-                    />
-                ),
-                image: stepTXTSetVoice
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Move Around"
-                        description="Step name for 'Move Around' step"
-                        id="gui.howtos.say-it-out-loud.step_TXTMove"
-                    />
-                ),
-                image: stepTXTMove
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Add a Backdrop "
-                        description="Step name for 'Add a Backdrop' step"
-                        id="gui.howtos.say-it-out-loud.step_TXTBackdrop"
-                    />
-                ),
-                image: stepTXTBackdrop
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Add Another Character"
-                        description="Step name for 'Add Another Character' step"
-                        id="gui.howtos.say-it-out-loud.step_TXTAddSprite"
-                    />
-                ),
-                image: stepTXTAddSprite
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Perform a Song"
-                        description="Step name for 'Perform a Song' step"
-                        id="gui.howtos.say-it-out-loud.step_TXTSong"
-                    />
-                ),
-                image: stepTXTSong
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Change Color"
-                        description="Step name for 'Change Color' step"
-                        id="gui.howtos.say-it-out-loud.step_TXTColor"
-                    />
-                ),
-                image: stepTXTColor
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Spin Around"
-                        description="Step name for 'Spin Around"
-                        id="gui.howtos.say-it-out-loud.step_TXTSpin"
-                    />
-                ),
-                image: stepTXTSpin
-            }, {
-                title: (
-                    <FormattedMessage
-                        defaultMessage="Grow and Shrink"
-                        description="Step name for 'Grow and Shrink' step"
-                        id="gui.howtos.say-it-out-loud.step_TXTGrow"
-                    />
-                ),
-                image: stepTXTGrow
-              }, {
-                  deckIds: [
-                      'animate-a-name',
-                      'Make-Music'
-                  ]
-              }
-              ],
-            urlId: 2
+            image: stepAddTXTextension
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Say Something"
+                    description="Step name for 'Say Something' step"
+                    id="gui.howtos. say-it-out-loud.step_TXTSpeech"
+                />
+            ),
+            image: stepTXTSpeech
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Set a Voice"
+                    description="Step name for 'Set a Voice"
+                    id="gui.howtos.say-it-out-loud_TXTSetVoice"
+                />
+            ),
+            image: stepTXTSetVoice
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Move Around"
+                    description="Step name for 'Move Around' step"
+                    id="gui.howtos.say-it-out-loud.step_TXTMove"
+                />
+            ),
+            image: stepTXTMove
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Add a Backdrop "
+                    description="Step name for 'Add a Backdrop' step"
+                    id="gui.howtos.say-it-out-loud.step_TXTBackdrop"
+                />
+            ),
+            image: stepTXTBackdrop
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Add Another Character"
+                    description="Step name for 'Add Another Character' step"
+                    id="gui.howtos.say-it-out-loud.step_TXTAddSprite"
+                />
+            ),
+            image: stepTXTAddSprite
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Perform a Song"
+                    description="Step name for 'Perform a Song' step"
+                    id="gui.howtos.say-it-out-loud.step_TXTSong"
+                />
+            ),
+            image: stepTXTSong
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Change Color"
+                    description="Step name for 'Change Color' step"
+                    id="gui.howtos.say-it-out-loud.step_TXTColor"
+                />
+            ),
+            image: stepTXTColor
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Spin Around"
+                    description="Step name for 'Spin Around"
+                    id="gui.howtos.say-it-out-loud.step_TXTSpin"
+                />
+            ),
+            image: stepTXTSpin
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Grow and Shrink"
+                    description="Step name for 'Grow and Shrink' step"
+                    id="gui.howtos.say-it-out-loud.step_TXTGrow"
+                />
+            ),
+            image: stepTXTGrow
+        }, {
+            deckIds: [
+                'animate-a-name',
+                'Make-Music'
+            ]
+        }
+        ],
+        urlId: 2
     },
     'animate-a-name': {
         name: (
