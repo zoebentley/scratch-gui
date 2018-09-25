@@ -6,6 +6,19 @@ import libraryIntro from './intro/lib-getting-started.jpg';
 import stepMove from './intro/intro1.gif';
 import stepMoveSayHello from './intro/intro2.gif';
 
+// Text to Speech
+import libraryTXTSpeech from './txt/lib_txt-to-speech.jpg';
+import stepAddTXTextension from './txt/01_hoc-add-extensions .gif';
+import stepTXTSpeech from './txt/02_hoc-say-something.gif';
+import stepTXTSetVoice from './txt/03_hoc-set-voice.gif';
+import stepTXTMove from './txt/04_hoc-move-around.gif';
+import stepTXTBackdrop from './txt/05_hoc-add-backdrop.gif';
+import stepTXTAddSprite from './txt/06_hoc-add-character.gif';
+import stepTXTSong from './txt/07_hoc-perform-song.gif';
+import stepTXTColor from './txt/08_hoc-color-click.gif';
+import stepTXTSpin from './txt/09_hoc-spin.gif';
+import stepTXTGrow from './txt/10_hoc-grow-shrink.gif';
+
 // Add sprite
 import libraryAddSprite from './sprite/cover-add-sprite.jpg';
 import stepAddSprite from './sprite/intro-choose-sprite.gif';
@@ -101,6 +114,116 @@ export default {
         }
         ],
         urlId: 1
+      },
+        'say-it-out-loud': {
+            name: (
+                <FormattedMessage
+                    defaultMessage="Say it Out Loud"
+                    description="Name for the 'Say it Out Loud' how-to"
+                    id="gui.howtos.say-it-out-loud"
+                />
+            ),
+            img: libraryTXTSpeech,
+            steps: [{
+                video: 'https://www.youtube.com/embed/jtRQnyjpTWI'
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Add the Text to Speech blocks"
+                        description="Step name for 'Add the Text to Speech blocks' step"
+                        id="gui.howtos.say-it-out-loud.step_AddTXTextension"
+                    />
+                ),
+                image: stepAddTXTextension
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Say Something"
+                        description="Step name for 'Say Something' step"
+                        id="gui.howtos. say-it-out-loud.step_TXTSpeech"
+                    />
+                ),
+                image: stepTXTSpeech
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Set a Voice"
+                        description="Step name for 'Set a Voice"
+                        id="gui.howtos.say-it-out-loud_TXTSetVoice"
+                    />
+                ),
+                image: stepTXTSetVoice
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Move Around"
+                        description="Step name for 'Move Around' step"
+                        id="gui.howtos.say-it-out-loud.step_TXTMove"
+                    />
+                ),
+                image: stepTXTMove
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Add a Backdrop "
+                        description="Step name for 'Add a Backdrop' step"
+                        id="gui.howtos.say-it-out-loud.step_TXTBackdrop"
+                    />
+                ),
+                image: stepTXTBackdrop
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Add Another Character"
+                        description="Step name for 'Add Another Character' step"
+                        id="gui.howtos.say-it-out-loud.step_TXTAddSprite"
+                    />
+                ),
+                image: stepTXTAddSprite
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Perform a Song"
+                        description="Step name for 'Perform a Song' step"
+                        id="gui.howtos.say-it-out-loud.step_TXTSong"
+                    />
+                ),
+                image: stepTXTSong
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Change Color"
+                        description="Step name for 'Change Color' step"
+                        id="gui.howtos.say-it-out-loud.step_TXTColor"
+                    />
+                ),
+                image: stepTXTColor
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Spin Around"
+                        description="Step name for 'Spin Around"
+                        id="gui.howtos.say-it-out-loud.step_TXTSpin"
+                    />
+                ),
+                image: stepTXTSpin
+            }, {
+                title: (
+                    <FormattedMessage
+                        defaultMessage="Grow and Shrink"
+                        description="Step name for 'Grow and Shrink' step"
+                        id="gui.howtos.say-it-out-loud.step_TXTGrow"
+                    />
+                ),
+                image: stepTXTGrow
+            }, {
+                deckIds: [
+                    'animate-a-name',
+                    'make-music'
+                ]
+            }
+            ],
+            urlId: 2
     },
     'animate-a-name': {
         name: (
@@ -174,7 +297,7 @@ export default {
             ]
         }
         ],
-        urlId: 2
+        urlId: 3
     },
     'Make-Music': {
         name: (
@@ -242,7 +365,7 @@ export default {
             ]
         }
         ],
-        urlId: 3
+        urlId: 4
     },
     'Make-A-Game': {
         name: (
@@ -327,7 +450,7 @@ export default {
             ]
         }
         ],
-        urlId: 4
+        urlId: 5
     },
 
     'Chase-Game': {
@@ -430,7 +553,7 @@ export default {
             ]
         }
         ],
-        urlId: 5
+        urlId: 6
     },
     'add-sprite': {
         name: (
@@ -459,7 +582,7 @@ export default {
                 ]
             }
         ],
-        urlId: 6
+        urlId: 7
     },
     'add-a-backdrop': {
         name: (
@@ -478,7 +601,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 7
+        urlId: 8
     },
     'change-size': {
         name: (
@@ -497,7 +620,7 @@ export default {
                 'spin-video'
             ]
         }],
-        urlId: 8
+        urlId: 9
     },
     'glide-around': {
         name: (
@@ -516,7 +639,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 9
+        urlId: 10
     },
 
     'record-a-sound': {
@@ -536,7 +659,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 10
+        urlId: 11
     },
     'spin-video': {
         name: (
@@ -555,7 +678,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 11
+        urlId: 12
     },
     'hide-and-show': {
         name: (
@@ -574,7 +697,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 12
+        urlId: 13
     },
 
     'switch-costume': {
@@ -594,7 +717,7 @@ export default {
                 'add-effects'
             ]
         }],
-        urlId: 13
+        urlId: 14
     },
 
     'move-around-with-arrow-keys': {
@@ -614,7 +737,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 14
+        urlId: 15
     },
     'add-effects': {
         name: (
@@ -633,6 +756,6 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 15
+        urlId: 16
     }
 };
