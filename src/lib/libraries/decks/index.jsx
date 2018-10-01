@@ -8,7 +8,7 @@ import stepMoveSayHello from './intro/intro2.gif';
 
 // Text to Speech
 import libraryTXTSpeech from './txt/lib_txt-to-speech.jpg';
-import stepAddTXTextension from './txt/01_hoc-add-extensions .gif';
+import stepAddTXTextension from './txt/01_hoc-add-extensions.gif';
 import stepTXTSpeech from './txt/02_hoc-say-something.gif';
 import stepTXTSetVoice from './txt/03_hoc-set-voice.gif';
 import stepTXTMove from './txt/04_hoc-move-around.gif';
@@ -18,6 +18,19 @@ import stepTXTSong from './txt/07_hoc-perform-song.gif';
 import stepTXTColor from './txt/08_hoc-color-click.gif';
 import stepTXTSpin from './txt/09_hoc-spin.gif';
 import stepTXTGrow from './txt/10_hoc-grow-shrink.gif';
+
+// Cartoon Network
+import libraryCartoonNetwork from './cartoonnetwork/lib_CartoonNetwork.jpg';
+import stepCNcharacter from './cartoonnetwork/01_cn-pick-character.gif';
+import stepCNsay from './cartoonnetwork/02_cn-say-something.gif';
+import stepCNglide from './cartoonnetwork/03_cn-glide-around.gif';
+import stepCNcollect from './cartoonnetwork/04_cn-collect.gif';
+import stepCNanimate from './cartoonnetwork/05_cn-add-score.gif';
+import stepCNscore from './cartoonnetwork/06_cn-keep-score.gif';
+import stepCNkeepscore from './cartoonnetwork/07_cn-level-up.gif';
+import stepCNlevel from './cartoonnetwork/08_cn-pick-another-character.gif';
+import stepCNcharacter2 from './cartoonnetwork/09_cn-level-up-say-something.gif';
+import stepCNlevelup from './cartoonnetwork/10_cn-animate-run.gif';
 
 // Add sprite
 import libraryAddSprite from './sprite/cover-add-sprite.jpg';
@@ -115,11 +128,12 @@ export default {
         ],
         urlId: 1
     },
+
     'say-it-out-loud': {
         name: (
             <FormattedMessage
-                defaultMessage="Say it Out Loud"
-                description="Name for the 'Say it Out Loud' how-to"
+                defaultMessage="Create Animations That Talk"
+                description="Name for the 'Create Animations That Talk' how-to"
                 id="gui.howtos.say-it-out-loud"
             />
         ),
@@ -225,6 +239,117 @@ export default {
         ],
         urlId: 2
     },
+
+    'cartoon-network': {
+        name: (
+            <FormattedMessage
+                defaultMessage="Animate an Adventure Game"
+                description="Animate an Adventure Game' how-to"
+                id="gui.howtos.cartoon-network"
+            />
+        ),
+        img: libraryCartoonNetwork,
+        steps: [{
+            video: 'https://www.youtube.com/embed/8daTynbV_sM'
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Choose Which Character to Show"
+                    description="Step name for 'Choose Which Character to Show' step"
+                    id="gui.howtos.cartoon-network.step_CNcharacter"
+                />
+            ),
+            image: stepCNcharacter
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Say Something"
+                    description="Step name for 'Say Something' step"
+                    id="gui.howtos.cartoon-network.step_CNsay"
+                />
+            ),
+            image: stepCNsay
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Glide Around"
+                    description="Step name for ' Glide Around' step"
+                    id="gui.howtos.cartoon-network.step_CNglide"
+                />
+            ),
+            image: stepCNglide
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage=" Collect Objects (In Gem Sprite) "
+                    description="Step name for ' Collect Objects (In Gem Sprite)' step"
+                    id="gui.howtos.cartoon-network.step_CNcollect"
+                />
+            ),
+            image: stepCNcollect
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Add Score"
+                    description="Step name for 'Add Score' step"
+                    id="gui.howtos.cartoon-network.step_CNanimate"
+                />
+            ),
+            image: stepCNanimate
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Keep Score"
+                    description="Step name for 'Keep Score' step"
+                    id="gui.howtos.cartoon-network.step_CNscore"
+                />
+            ),
+            image: stepCNscore
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Level Up: Change Background"
+                    description="Step name for 'Level Up: Change Background' step"
+                    id="gui.howtos.cartoon-network.step_CNkeepscore"
+                />
+            ),
+            image: stepCNkeepscore
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Show A New Character"
+                    description="Step name for 'Show A New Character' step"
+                    id="gui.howtos.cartoon-network.step_CNlevel"
+                />
+            ),
+            image: stepCNlevel
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Level Up: Say Something"
+                    description="Step name for 'Level Up: Say Something' step"
+                    id="gui.howtos.cartoon-network.step_CNcharacter2"
+                />
+            ),
+            image: stepCNcharacter2
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Animate A Run"
+                    description="Step name for 'Animate A Run' step"
+                    id="gui.howtos.cartoon-network.step_CNlevelup"
+                />
+            ),
+            image: stepCNlevelup
+        }, {
+            deckIds: [
+                'Chase-Game',
+                'record-a-sound'
+            ]
+        }
+        ],
+        urlId: 3
+    },
     'animate-a-name': {
         name: (
             <FormattedMessage
@@ -297,7 +422,7 @@ export default {
             ]
         }
         ],
-        urlId: 3
+        urlId: 4
     },
     'Make-Music': {
         name: (
@@ -365,7 +490,7 @@ export default {
             ]
         }
         ],
-        urlId: 4
+        urlId: 5
     },
     'Make-A-Game': {
         name: (
@@ -450,7 +575,7 @@ export default {
             ]
         }
         ],
-        urlId: 5
+        urlId: 6
     },
 
     'Chase-Game': {
@@ -553,7 +678,7 @@ export default {
             ]
         }
         ],
-        urlId: 6
+        urlId: 7
     },
     'add-sprite': {
         name: (
@@ -582,7 +707,7 @@ export default {
                 ]
             }
         ],
-        urlId: 7
+        urlId: 8
     },
     'add-a-backdrop': {
         name: (
@@ -601,7 +726,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 8
+        urlId: 9
     },
     'change-size': {
         name: (
@@ -620,7 +745,7 @@ export default {
                 'spin-video'
             ]
         }],
-        urlId: 9
+        urlId: 10
     },
     'glide-around': {
         name: (
@@ -639,7 +764,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 10
+        urlId: 11
     },
 
     'record-a-sound': {
@@ -659,7 +784,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 11
+        urlId: 12
     },
     'spin-video': {
         name: (
@@ -678,7 +803,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 12
+        urlId: 13
     },
     'hide-and-show': {
         name: (
@@ -697,7 +822,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 13
+        urlId: 14
     },
 
     'switch-costume': {
@@ -717,7 +842,7 @@ export default {
                 'add-effects'
             ]
         }],
-        urlId: 14
+        urlId: 15
     },
 
     'move-around-with-arrow-keys': {
@@ -737,7 +862,7 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 15
+        urlId: 16
     },
     'add-effects': {
         name: (
@@ -756,6 +881,6 @@ export default {
                 'switch-costume'
             ]
         }],
-        urlId: 16
+        urlId: 17
     }
 };
