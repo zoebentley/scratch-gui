@@ -119,7 +119,7 @@ import pongResetScore from './steps/pong-reset-score.en.png';
 import pongAddLineSprite from './steps/pong-add-line.en.gif';
 import pongGameOver from './steps/pong-game-over.en.png';
 
-// Imagine If
+// Imagine a World
 import imagineTypeWhatYouWant from './steps/imagine-type-what-you-want.en.png';
 import imagineClickGreenFlag from './steps/imagine-click-green-flag.en.png';
 import imagineChooseBackdrop from './steps/imagine-choose-backdrop.en.png';
@@ -174,19 +174,16 @@ import glideAroundPoint from './steps/glide-around-point.en.png';
 import talesAddExtension from './steps/talking-1-add-extension.en.gif';
 import talesChooseSprite from './steps/talking-2-choose-sprite.en.png';
 import talesSaySomething from './steps/talking-3-say-something.en.gif';
-import talesAskAnswer from './steps/talking-4-ask-and-answer.en.gif';
-import talesChooseBackdrop from './steps/talking-5-choose-backdrop.en.png';
-import talesSwitchBackdrop from './steps/talking-6-switch-backdrop.en.gif';
-import talesChooseAnotherSprite from './steps/talking-7-choose-another-sprite.en.png';
-import talesIntroduceNewCharacter from './steps/talking-8-introduce-another-character.en.png';
-import talesMoveAround from './steps/talking-9-move-around.en.gif';
-import talesChooseAnotherBackdrop from './steps/talking-10-choose-another-backdrop.en.png';
-import talesAnimateTalking from './steps/talking-11-animate.en.gif';
-import talesChooseThirdBackdrop from './steps/talking-12-choose-third-backdrop.en.png';
-import talesChooseSound from './steps/talking-13-choose-sound.en.gif';
-import talesDanceMoves from './steps/talking-14-dance-moves.en.gif';
-import talesInsertEqualsBlock from './steps/talking-15-respond-to-answer.en.gif';
-import talesGrowShrink from './steps/talking-16-grow-and-shrink.en.gif';
+import talesChooseBackdrop from './steps/talking-4-choose-backdrop.en.png';
+import talesSwitchBackdrop from './steps/talking-5-switch-backdrop.en.gif';
+import talesChooseAnotherSprite from './steps/talking-6-choose-another-sprite.en.png';
+import talesMoveAround from './steps/talking-7-move-around.en.gif';
+import talesChooseAnotherBackdrop from './steps/talking-8-choose-another-backdrop.en.png';
+import talesAnimateTalking from './steps/talking-9-animate.en.gif';
+import talesChooseThirdBackdrop from './steps/talking-10-choose-third-backdrop.en.png';
+import talesChooseSound from './steps/talking-11-choose-sound.en.gif';
+import talesDanceMoves from './steps/talking-12-dance-moves.en.gif';
+import talesAskAnswer from './steps/talking-13-ask-and-answer.en.gif';
 
 const enImages = {
     // Intro
@@ -310,7 +307,7 @@ const enImages = {
     pongAddLineSprite: pongAddLineSprite,
     pongGameOver: pongGameOver,
     
-    // Imagine If
+    // Imagine a World
     imagineTypeWhatYouWant: imagineTypeWhatYouWant,
     imagineClickGreenFlag: imagineClickGreenFlag,
     imagineChooseBackdrop: imagineChooseBackdrop,
@@ -369,15 +366,12 @@ const enImages = {
     talesChooseBackdrop: talesChooseBackdrop,
     talesSwitchBackdrop: talesSwitchBackdrop,
     talesChooseAnotherSprite: talesChooseAnotherSprite,
-    talesIntroduceNewCharacter: talesIntroduceNewCharacter,
     talesMoveAround: talesMoveAround,
     talesChooseAnotherBackdrop: talesChooseAnotherBackdrop,
     talesAnimateTalking: talesAnimateTalking,
     talesChooseThirdBackdrop: talesChooseThirdBackdrop,
     talesChooseSound: talesChooseSound,
     talesDanceMoves: talesDanceMoves,
-    talesInsertEqualsBlock: talesInsertEqualsBlock,
-    talesGrowShrink: talesGrowShrink
     
 };
 
