@@ -12,12 +12,34 @@ const loadSpanish = () =>
     import(/* webpackChunkName: "es-steps" */ './es-steps.js')
         .then(({esImages: imageData}) => imageData);
 
+const loadSimplifiedChinese = () =>
+    import(/* webpackChunkName: "zh_CN-steps" */ './zh_CN-steps.js')
+        .then(({zh_CNImages: imageData}) => imageData);
+
+const loadTurkish = () =>
+    import(/* webpackChunkName: "tr-steps" */ './tr-steps.js')
+        .then(({trImages: imageData}) => imageData);
+
+const loadFrench = () =>
+    import(/* webpackChunkName: "fr-steps" */ './fr-steps.js')
+        .then(({frImages: imageData}) => imageData);
+
+const loadJapanese = () =>
+    import(/* webpackChunkName: "ja-steps" */ './ja-steps.js')
+        .then(({jaImages: imageData}) => imageData);
+
 const translations = {
     'es': () => loadSpanish(),
-    'es-419': () => loadSpanish()
+    'es-419': () => loadSpanish(),
+    'zh-cn': () => loadSimplifiedChinese(),
+    'tr': () => loadTurkish(),
+    'fr': () => loadFrench(),
+    'ja': () => loadJapanese(),
+    'ja-Hira': () => loadJapanese()
 };
 
 const loadImageData = locale => {
+    console.log(locale);
     if (translations.hasOwnProperty(locale)) {
         translations[locale]()
             .then(newImages => {
