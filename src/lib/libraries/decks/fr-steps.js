@@ -7,7 +7,7 @@ import speechAddExtension from './steps/speech-add-extension.fr.gif';
 import speechSaySomething from './steps/speech-say-something.fr.png';
 import speechSetVoice from './steps/speech-set-voice.fr.png';
 import speechMoveAround from './steps/speech-move-around.fr.png';
-import speechAddBackdrop from './steps/speech-add-backdrop.gif';
+import speechAddBackdrop from './steps/add-backdrop.png';
 import speechAddSprite from './steps/speech-add-sprite.gif';
 import speechSong from './steps/speech-song.fr.png';
 import speechChangeColor from './steps/speech-change-color.fr.png';

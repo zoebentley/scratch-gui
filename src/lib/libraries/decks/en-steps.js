@@ -7,7 +7,7 @@ import speechAddExtension from './steps/talking-1-add-extension.en.gif';
 import speechSaySomething from './steps/speech-say-something.en.gif';
 import speechSetVoice from './steps/speech-set-voice.en.gif';
 import speechMoveAround from './steps/speech-move-around.en.gif';
-import speechAddBackdrop from './steps/speech-add-backdrop.en.gif';
+import speechAddBackdrop from './steps/add-backdrop.png';
 import speechAddSprite from './steps/speech-add-sprite.en.gif';
 import speechSong from './steps/speech-song.en.gif';
 import speechChangeColor from './steps/speech-change-color.en.gif';
