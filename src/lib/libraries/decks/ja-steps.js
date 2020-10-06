@@ -1,13 +1,14 @@
 // Intro
-import introMove from './steps/intro-move.ja.gif';
-import introSayHello from './steps/intro-say-hello.ja.gif';
+import introMove from './steps/intro-1-move.ja.gif';
+import introSayHello from './steps/intro-2-say.ja.gif';
+import introGreenFlag from './steps/intro-3-green-flag.ja.gif';
 
 // Text to Speech
 import speechAddExtension from './steps/speech-add-extension.ja.gif';
 import speechSaySomething from './steps/speech-say-something.ja.png';
 import speechSetVoice from './steps/speech-set-voice.ja.png';
 import speechMoveAround from './steps/speech-move-around.ja.png';
-import speechAddBackdrop from './steps/add-backdrop.png';
+import speechAddBackdrop from './steps/speech-add-backdrop.gif';
 import speechAddSprite from './steps/speech-add-sprite.gif';
 import speechSong from './steps/speech-song.ja.png';
 import speechChangeColor from './steps/speech-change-color.ja.png';

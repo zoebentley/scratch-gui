@@ -1,6 +1,7 @@
 // Intro
-import introMove from './steps/intro-move.en.gif';
-import introSayHello from './steps/intro-say-hello.en.gif';
+import introMove from './steps/intro-1-move.en.gif';
+import introSayHello from './steps/intro-2-say.en.gif';
+import introGreenFlag from './steps/intro-3-green-flag.en.gif';
 
 // Text to Speech
 import speechAddExtension from './steps/speech-add-extension.en.gif';

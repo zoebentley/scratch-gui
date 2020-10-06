@@ -1,205 +1,205 @@
 // Intro
-import introMove from './steps/intro-1-move.tr.gif';
-import introSayHello from './steps/intro-2-say.tr.gif';
-import introGreenFlag from './steps/intro-3-green-flag.tr.gif';
+import introMove from './steps/intro-1-move.pt_BR.gif';
+import introSayHello from './steps/intro-2-say.pt_BR.gif';
+import introGreenFlag from './steps/intro-3-green-flag.pt_BR.gif';
 
 // Text to Speech
-import speechAddExtension from './steps/speech-add-extension.tr.gif';
-import speechSaySomething from './steps/speech-say-something.tr.png';
-import speechSetVoice from './steps/speech-set-voice.tr.png';
-import speechMoveAround from './steps/speech-move-around.tr.png';
+import speechAddExtension from './steps/speech-add-extension.pt_BR.gif';
+import speechSaySomething from './steps/speech-say-something.pt_BR.png';
+import speechSetVoice from './steps/speech-set-voice.pt_BR.png';
+import speechMoveAround from './steps/speech-move-around.pt_BR.png';
 import speechAddBackdrop from './steps/speech-add-backdrop.gif';
 import speechAddSprite from './steps/speech-add-sprite.gif';
-import speechSong from './steps/speech-song.tr.png';
-import speechChangeColor from './steps/speech-change-color.tr.png';
-import speechSpin from './steps/speech-spin.tr.png';
-import speechGrowShrink from './steps/speech-grow-shrink.tr.png';
+import speechSong from './steps/speech-song.pt_BR.png';
+import speechChangeColor from './steps/speech-change-color.pt_BR.png';
+import speechSpin from './steps/speech-spin.pt_BR.png';
+import speechGrowShrink from './steps/speech-grow-shrink.pt_BR.png';
 
 // Cartoon Network
 import cnShowCharacter from './steps/cn-show-character.gif';
-import cnSay from './steps/cn-say.tr.png';
-import cnGlide from './steps/cn-glide.tr.png';
+import cnSay from './steps/cn-say.pt_BR.png';
+import cnGlide from './steps/cn-glide.pt_BR.png';
 import cnPickSprite from './steps/cn-pick-sprite.gif';
-import cnCollect from './steps/cn-collect.tr.png';
-import cnVariable from './steps/add-variable.tr.gif';
-import cnScore from './steps/cn-score.tr.png';
-import cnBackdrop from './steps/cn-backdrop.tr.png';
+import cnCollect from './steps/cn-collect.pt_BR.png';
+import cnVariable from './steps/add-variable.pt_BR.gif';
+import cnScore from './steps/cn-score.pt_BR.png';
+import cnBackdrop from './steps/cn-backdrop.pt_BR.png';
 
 // Add sprite
 import addSprite from './steps/add-sprite.gif';
 
 // Animate a name
 import namePickLetter from './steps/name-pick-letter.gif';
-import namePlaySound from './steps/name-play-sound.tr.png';
+import namePlaySound from './steps/name-play-sound.pt_BR.png';
 import namePickLetter2 from './steps/name-pick-letter2.gif';
-import nameChangeColor from './steps/name-change-color.tr.png';
-import nameSpin from './steps/name-spin.tr.png';
-import nameGrow from './steps/name-grow.tr.png';
+import nameChangeColor from './steps/name-change-color.pt_BR.png';
+import nameSpin from './steps/name-spin.pt_BR.png';
+import nameGrow from './steps/name-grow.pt_BR.png';
 
 // Make Music
 import musicPickInstrument from './steps/music-pick-instrument.gif';
-import musicPlaySound from './steps/music-play-sound.tr.png';
-import musicMakeSong from './steps/music-make-song.tr.png';
-import musicMakeBeat from './steps/music-make-beat.tr.png';
-import musicMakeBeatbox from './steps/music-make-beatbox.tr.png';
+import musicPlaySound from './steps/music-play-sound.pt_BR.png';
+import musicMakeSong from './steps/music-make-song.pt_BR.png';
+import musicMakeBeat from './steps/music-make-beat.pt_BR.png';
+import musicMakeBeatbox from './steps/music-make-beatbox.pt_BR.png';
 
 // Chase-Game
 import chaseGameAddBackdrop from './steps/chase-game-add-backdrop.gif';
 import chaseGameAddSprite1 from './steps/chase-game-add-sprite1.gif';
-import chaseGameRightLeft from './steps/chase-game-right-left.tr.png';
-import chaseGameUpDown from './steps/chase-game-up-down.tr.png';
+import chaseGameRightLeft from './steps/chase-game-right-left.pt_BR.png';
+import chaseGameUpDown from './steps/chase-game-up-down.pt_BR.png';
 import chaseGameAddSprite2 from './steps/chase-game-add-sprite2.gif';
-import chaseGameMoveRandomly from './steps/chase-game-move-randomly.tr.png';
-import chaseGamePlaySound from './steps/chase-game-play-sound.tr.png';
-import chaseGameAddVariable from './steps/add-variable.tr.gif';
-import chaseGameChangeScore from './steps/chase-game-change-score.tr.png';
+import chaseGameMoveRandomly from './steps/chase-game-move-randomly.pt_BR.png';
+import chaseGamePlaySound from './steps/chase-game-play-sound.pt_BR.png';
+import chaseGameAddVariable from './steps/add-variable.pt_BR.gif';
+import chaseGameChangeScore from './steps/chase-game-change-score.pt_BR.png';
 
 // Clicker-Game (Pop Game)
 import popGamePickSprite from './steps/pop-game-pick-sprite.gif';
-import popGamePlaySound from './steps/pop-game-play-sound.tr.png';
-import popGameAddScore from './steps/add-variable.tr.gif';
-import popGameChangeScore from './steps/pop-game-change-score.tr.png';
-import popGameRandomPosition from './steps/pop-game-random-position.tr.png';
-import popGameChangeColor from './steps/pop-game-change-color.tr.png';
-import popGameResetScore from './steps/pop-game-reset-score.tr.png';
+import popGamePlaySound from './steps/pop-game-play-sound.pt_BR.png';
+import popGameAddScore from './steps/add-variable.pt_BR.gif';
+import popGameChangeScore from './steps/pop-game-change-score.pt_BR.png';
+import popGameRandomPosition from './steps/pop-game-random-position.pt_BR.png';
+import popGameChangeColor from './steps/pop-game-change-color.pt_BR.png';
+import popGameResetScore from './steps/pop-game-reset-score.pt_BR.png';
 
 // Animate A Character
 import animateCharPickBackdrop from './steps/animate-char-pick-backdrop.gif';
 import animateCharPickSprite from './steps/animate-char-pick-sprite.gif';
-import animateCharSaySomething from './steps/animate-char-say-something.tr.png';
-import animateCharAddSound from './steps/animate-char-add-sound.tr.png';
-import animateCharTalk from './steps/animate-char-talk.tr.png';
-import animateCharMove from './steps/animate-char-move.tr.png';
-import animateCharJump from './steps/animate-char-jump.tr.png';
-import animateCharChangeColor from './steps/animate-char-change-color.tr.png';
+import animateCharSaySomething from './steps/animate-char-say-something.pt_BR.png';
+import animateCharAddSound from './steps/animate-char-add-sound.pt_BR.png';
+import animateCharTalk from './steps/animate-char-talk.pt_BR.png';
+import animateCharMove from './steps/animate-char-move.pt_BR.png';
+import animateCharJump from './steps/animate-char-jump.pt_BR.png';
+import animateCharChangeColor from './steps/animate-char-change-color.pt_BR.png';
 
 // Tell A Story
 import storyPickBackdrop from './steps/story-pick-backdrop.gif';
 import storyPickSprite from './steps/story-pick-sprite.gif';
-import storySaySomething from './steps/story-say-something.tr.png';
+import storySaySomething from './steps/story-say-something.pt_BR.png';
 import storyPickSprite2 from './steps/story-pick-sprite2.gif';
-import storyFlip from './steps/story-flip.tr.gif';
-import storyConversation from './steps/story-conversation.tr.png';
+import storyFlip from './steps/story-flip.pt_BR.gif';
+import storyConversation from './steps/story-conversation.pt_BR.png';
 import storyPickBackdrop2 from './steps/story-pick-backdrop2.gif';
-import storySwitchBackdrop from './steps/story-switch-backdrop.tr.png';
-import storyHideCharacter from './steps/story-hide-character.tr.png';
-import storyShowCharacter from './steps/story-show-character.tr.png';
+import storySwitchBackdrop from './steps/story-switch-backdrop.pt_BR.png';
+import storyHideCharacter from './steps/story-hide-character.pt_BR.png';
+import storyShowCharacter from './steps/story-show-character.pt_BR.png';
 
 // Video Sensing
-import videoAddExtension from './steps/video-add-extension.tr.gif';
-import videoPet from './steps/video-pet.tr.png';
-import videoAnimate from './steps/video-animate.tr.png';
-import videoPop from './steps/video-pop.tr.png';
+import videoAddExtension from './steps/video-add-extension.pt_BR.gif';
+import videoPet from './steps/video-pet.pt_BR.png';
+import videoAnimate from './steps/video-animate.pt_BR.png';
+import videoPop from './steps/video-pop.pt_BR.png';
 
 // Make it Fly
 import flyChooseBackdrop from './steps/fly-choose-backdrop.gif';
 import flyChooseCharacter from './steps/fly-choose-character.png';
-import flySaySomething from './steps/fly-say-something.tr.png';
-import flyMoveArrows from './steps/fly-make-interactive.tr.png';
+import flySaySomething from './steps/fly-say-something.pt_BR.png';
+import flyMoveArrows from './steps/fly-make-interactive.pt_BR.png';
 import flyChooseObject from './steps/fly-object-to-collect.png';
-import flyFlyingObject from './steps/fly-flying-heart.tr.png';
+import flyFlyingObject from './steps/fly-flying-heart.pt_BR.png';
 import flySelectFlyingSprite from './steps/fly-select-flyer.png';
-import flyAddScore from './steps/add-variable.tr.gif';
-import flyKeepScore from './steps/fly-keep-score.tr.png';
+import flyAddScore from './steps/add-variable.pt_BR.gif';
+import flyKeepScore from './steps/fly-keep-score.pt_BR.png';
 import flyAddScenery from './steps/fly-choose-scenery.gif';
-import flyMoveScenery from './steps/fly-move-scenery.tr.png';
-import flySwitchLooks from './steps/fly-switch-costume.tr.png';
+import flyMoveScenery from './steps/fly-move-scenery.pt_BR.png';
+import flySwitchLooks from './steps/fly-switch-costume.pt_BR.png';
 
 // Pong
 import pongAddBackdrop from './steps/pong-add-backdrop.png';
 import pongAddBallSprite from './steps/pong-add-ball-sprite.png';
-import pongBounceAround from './steps/pong-bounce-around.tr.png';
+import pongBounceAround from './steps/pong-bounce-around.pt_BR.png';
 import pongAddPaddle from './steps/pong-add-a-paddle.gif';
-import pongMoveThePaddle from './steps/pong-move-the-paddle.tr.png';
+import pongMoveThePaddle from './steps/pong-move-the-paddle.pt_BR.png';
 import pongSelectBallSprite from './steps/pong-select-ball.png';
-import pongAddMoreCodeToBall from './steps/pong-add-code-to-ball.tr.png';
-import pongAddAScore from './steps/add-variable.tr.gif';
-import pongChooseScoreFromMenu from './steps/pong-choose-score.tr.png';
-import pongInsertChangeScoreBlock from './steps/pong-insert-change-score.tr.png';
-import pongResetScore from './steps/pong-reset-score.tr.png';
+import pongAddMoreCodeToBall from './steps/pong-add-code-to-ball.pt_BR.png';
+import pongAddAScore from './steps/add-variable.pt_BR.gif';
+import pongChooseScoreFromMenu from './steps/pong-choose-score.pt_BR.png';
+import pongInsertChangeScoreBlock from './steps/pong-insert-change-score.pt_BR.png';
+import pongResetScore from './steps/pong-reset-score.pt_BR.png';
 import pongAddLineSprite from './steps/pong-add-line.gif';
-import pongGameOver from './steps/pong-game-over.tr.png';
+import pongGameOver from './steps/pong-game-over.pt_BR.png';
 
 // Imagine a World
-import imagineTypeWhatYouWant from './steps/imagine-type-what-you-want.tr.png';
-import imagineClickGreenFlag from './steps/imagine-click-green-flag.tr.png';
+import imagineTypeWhatYouWant from './steps/imagine-type-what-you-want.pt_BR.png';
+import imagineClickGreenFlag from './steps/imagine-click-green-flag.pt_BR.png';
 import imagineChooseBackdrop from './steps/imagine-choose-backdrop.png';
 import imagineChooseSprite from './steps/imagine-choose-any-sprite.png';
-import imagineFlyAround from './steps/imagine-fly-around.tr.png';
+import imagineFlyAround from './steps/imagine-fly-around.pt_BR.png';
 import imagineChooseAnotherSprite from './steps/imagine-choose-another-sprite.png';
-import imagineLeftRight from './steps/imagine-left-right.tr.png';
-import imagineUpDown from './steps/imagine-up-down.tr.png';
-import imagineChangeCostumes from './steps/imagine-change-costumes.tr.png';
-import imagineGlideToPoint from './steps/imagine-glide-to-point.tr.png';
-import imagineGrowShrink from './steps/imagine-grow-shrink.tr.png';
+import imagineLeftRight from './steps/imagine-left-right.pt_BR.png';
+import imagineUpDown from './steps/imagine-up-down.pt_BR.png';
+import imagineChangeCostumes from './steps/imagine-change-costumes.pt_BR.png';
+import imagineGlideToPoint from './steps/imagine-glide-to-point.pt_BR.png';
+import imagineGrowShrink from './steps/imagine-grow-shrink.pt_BR.png';
 import imagineChooseAnotherBackdrop from './steps/imagine-choose-another-backdrop.png';
-import imagineSwitchBackdrops from './steps/imagine-switch-backdrops.tr.png';
-import imagineRecordASound from './steps/imagine-record-a-sound.tr.gif';
-import imagineChooseSound from './steps/imagine-choose-sound.tr.png';
+import imagineSwitchBackdrops from './steps/imagine-switch-backdrops.pt_BR.png';
+import imagineRecordASound from './steps/imagine-record-a-sound.pt_BR.gif';
+import imagineChooseSound from './steps/imagine-choose-sound.pt_BR.png';
 
 // Add a Backdrop
 import addBackdrop from './steps/add-backdrop.png';
 
 // Add Effects
-import addEffects from './steps/add-effects.tr.png';
+import addEffects from './steps/add-effects.pt_BR.png';
 
 // Hide and Show
-import hideAndShow from './steps/hide-show.tr.png';
+import hideAndShow from './steps/hide-show.pt_BR.png';
 
 // Switch Costumes
-import switchCostumes from './steps/switch-costumes.tr.png';
+import switchCostumes from './steps/switch-costumes.pt_BR.png';
 
 // Change Size
-import changeSize from './steps/change-size.tr.png';
+import changeSize from './steps/change-size.pt_BR.png';
 
 // Spin
-import spinTurn from './steps/spin-turn.tr.png';
-import spinPointInDirection from './steps/spin-point-in-direction.tr.png';
+import spinTurn from './steps/spin-turn.pt_BR.png';
+import spinPointInDirection from './steps/spin-point-in-direction.pt_BR.png';
 
 // Record a Sound
-import recordASoundSoundsTab from './steps/record-a-sound-sounds-tab.tr.png';
-import recordASoundClickRecord from './steps/record-a-sound-click-record.tr.png';
-import recordASoundPressRecordButton from './steps/record-a-sound-press-record-button.tr.png';
-import recordASoundChooseSound from './steps/record-a-sound-choose-sound.tr.png';
-import recordASoundPlayYourSound from './steps/record-a-sound-play-your-sound.tr.png';
+import recordASoundSoundsTab from './steps/record-a-sound-sounds-tab.pt_BR.png';
+import recordASoundClickRecord from './steps/record-a-sound-click-record.pt_BR.png';
+import recordASoundPressRecordButton from './steps/record-a-sound-press-record-button.pt_BR.png';
+import recordASoundChooseSound from './steps/record-a-sound-choose-sound.pt_BR.png';
+import recordASoundPlayYourSound from './steps/record-a-sound-play-your-sound.pt_BR.png';
 
 // Use Arrow Keys
-import moveArrowKeysLeftRight from './steps/move-arrow-keys-left-right.tr.png';
-import moveArrowKeysUpDown from './steps/move-arrow-keys-up-down.tr.png';
+import moveArrowKeysLeftRight from './steps/move-arrow-keys-left-right.pt_BR.png';
+import moveArrowKeysUpDown from './steps/move-arrow-keys-up-down.pt_BR.png';
 
 // Glide Around
-import glideAroundBackAndForth from './steps/glide-around-back-and-forth.tr.png';
-import glideAroundPoint from './steps/glide-around-point.tr.png';
+import glideAroundBackAndForth from './steps/glide-around-back-and-forth.pt_BR.png';
+import glideAroundPoint from './steps/glide-around-point.pt_BR.png';
 
 // Code a Cartoon
-import codeCartoonSaySomething from './steps/code-cartoon-01-say-something.tr.png';
-import codeCartoonAnimate from './steps/code-cartoon-02-animate.tr.png';
+import codeCartoonSaySomething from './steps/code-cartoon-01-say-something.pt_BR.png';
+import codeCartoonAnimate from './steps/code-cartoon-02-animate.pt_BR.png';
 import codeCartoonSelectDifferentCharacter from './steps/code-cartoon-03-select-different-character.png';
-import codeCartoonUseMinusSign from './steps/code-cartoon-04-use-minus-sign.tr.png';
-import codeCartoonGrowShrink from './steps/code-cartoon-05-grow-shrink.tr.png';
+import codeCartoonUseMinusSign from './steps/code-cartoon-04-use-minus-sign.pt_BR.png';
+import codeCartoonGrowShrink from './steps/code-cartoon-05-grow-shrink.pt_BR.png';
 import codeCartoonSelectDifferentCharacter2 from './steps/code-cartoon-06-select-another-different-character.png';
-import codeCartoonJump from './steps/code-cartoon-07-jump.tr.png';
-import codeCartoonChangeScenes from './steps/code-cartoon-08-change-scenes.tr.png';
-import codeCartoonGlideAround from './steps/code-cartoon-09-glide-around.tr.png';
-import codeCartoonChangeCostumes from './steps/code-cartoon-10-change-costumes.tr.png';
+import codeCartoonJump from './steps/code-cartoon-07-jump.pt_BR.png';
+import codeCartoonChangeScenes from './steps/code-cartoon-08-change-scenes.pt_BR.png';
+import codeCartoonGlideAround from './steps/code-cartoon-09-glide-around.pt_BR.png';
+import codeCartoonChangeCostumes from './steps/code-cartoon-10-change-costumes.pt_BR.png';
 import codeCartoonChooseMoreCharacters from './steps/code-cartoon-11-choose-more-characters.png';
 
 // Talking Tales
-import talesAddExtension from './steps/speech-add-extension.tr.gif';
+import talesAddExtension from './steps/speech-add-extension.pt_BR.gif';
 import talesChooseSprite from './steps/talking-2-choose-sprite.png';
-import talesSaySomething from './steps/talking-3-say-something.tr.png';
+import talesSaySomething from './steps/talking-3-say-something.pt_BR.png';
 import talesChooseBackdrop from './steps/talking-4-choose-backdrop.png';
-import talesSwitchBackdrop from './steps/talking-5-switch-backdrop.tr.png';
+import talesSwitchBackdrop from './steps/talking-5-switch-backdrop.pt_BR.png';
 import talesChooseAnotherSprite from './steps/talking-6-choose-another-sprite.png';
-import talesMoveAround from './steps/talking-7-move-around.tr.png';
+import talesMoveAround from './steps/talking-7-move-around.pt_BR.png';
 import talesChooseAnotherBackdrop from './steps/talking-8-choose-another-backdrop.png';
-import talesAnimateTalking from './steps/talking-9-animate.tr.png';
+import talesAnimateTalking from './steps/talking-9-animate.pt_BR.png';
 import talesChooseThirdBackdrop from './steps/talking-10-choose-third-backdrop.png';
-import talesChooseSound from './steps/talking-11-choose-sound.tr.gif';
-import talesDanceMoves from './steps/talking-12-dance-moves.tr.png';
-import talesAskAnswer from './steps/talking-13-ask-and-answer.tr.png';
+import talesChooseSound from './steps/talking-11-choose-sound.pt_BR.gif';
+import talesDanceMoves from './steps/talking-12-dance-moves.pt_BR.png';
+import talesAskAnswer from './steps/talking-13-ask-and-answer.pt_BR.png';
 
-const trImages = {
+const pt_BRImages = {
     // Intro
     introMove: introMove,
     introSayHello: introSayHello,
@@ -401,4 +401,4 @@ const trImages = {
     talesDanceMoves: talesDanceMoves
 };
 
-export {trImages};
+export {pt_BRImages};
