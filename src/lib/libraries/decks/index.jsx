@@ -81,19 +81,28 @@ export default {
                 <FormattedMessage
                     defaultMessage="Add a move block"
                     description="Step name for 'Add a move block' step"
-                    id="gui.howtos.intro-move.step_stepMove"
+                    id="gui.howtos.intro-move.step_introMove"
                 />
             ),
             image: 'introMove'
         }, {
             title: (
                 <FormattedMessage
-                    defaultMessage="Click the green flag to start"
+                    defaultMessage="Add a say block"
                     description="Step name for 'Add A Say Block' step"
-                    id="gui.howtos.add-a-move-block.step_stepMoveSayHello"
+                    id="gui.howtos.add-a-move-block.step_introSay"
                 />
             ),
-            image: 'introSayHello'
+            image: 'introSay'
+        }, {
+            title: (
+                <FormattedMessage
+                    defaultMessage="Click the green flag to start"
+                    description="Step name for 'Add A Green Flag' step"
+                    id="gui.howtos.add-a-move-block.step_introGreenFlag"
+                />
+            ),
+            image: 'introGreenFlag'
         }, {
             deckIds: [
                 'add-a-backdrop',
